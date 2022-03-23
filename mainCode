@@ -1,0 +1,4 @@
+library(MASS)
+LDA_mu <- read.csv('D:/Work/endmember.csv')
+LDA_mu.lda <- lda(Class ~ B2 + B3 + B4 + B5 + B6 + B7,  data = LDA_mu)
+LDA_mu.lda
